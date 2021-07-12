@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto&family=Ubuntu&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+  text-align: center;
+  margin: 5rem;
+  padding: 5rem;
+  background-color: bisque; 
+}
+
+.colorCyan{
+  color: cyan;
+}
+.colorPurple{
+  color: purple;
+}
+.colorBlack{
+  color: black;
+}
+
+.fontUbantu{
+  font-family:'Ubuntu';
+}
+.fontRoboto{
+  font-family:'Roboto';
+}
+.fontCourir{
+  font-family:'Courier New';
+}
+
+ h1{
+  margin-bottom: 1rem;
+}
+.bgBlue{
+  text-align: center;
+  margin: 5rem;
+  padding: 5rem;
+  background-color: blue;
+}
+.bgGreen{
+  text-align: center;
+  margin: 5rem;
+  padding: 5rem;
+  background-color: green;
+}
+.bgRed{
+  text-align: center;
+  margin: 5rem;
+  padding: 5rem;
+  background-color: red;
+}
+
+.btnReset{
+  padding:1rem 3rem;
+  color: black;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: peru;
+  margin:3rem 0;
+}
+.btnGroup{
+  text-align: center;
+}
+
+.bgButton{
+  display: flex;
+  margin:2REM 5rem;
+  align-items: center;
+}
+.btnColor{
+  padding:1rem 3rem;
+  margin-left: 1rem;
+  color: black;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.cyan{
+  border: solid 3px cyan;
+}
+.purpel{
+  border:solid 3px purple
+}
+.black{
+  border:solid 3px black;
+}
+.btnFont{
+  padding:1rem 3rem;
+  margin-left: 1rem;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: black;
+}
+.btn{
+  padding:1rem 3rem;
+  margin-left: 1rem;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
+
+.main{
+  display: flex;
+}
+
+.code{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+}
+.code textarea{
+  height: 20rem;
+  width: 20rem;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+
