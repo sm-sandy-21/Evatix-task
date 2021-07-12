@@ -21,7 +21,6 @@
   }
  
   .home{
-      min-height: 100vh;
        padding-top: 7.5rem; 
        background: linear-gradient(to right, rgba(255,115,86,255), rgba(255,84,85,255));; 
   } 
@@ -186,6 +185,16 @@ media quries */
       html{
           font-size: 80%;
       }
+      .linePac {
+        border-top: 2px solid tomato;
+        width: 22rem;
+        margin: 1rem 27rem;
+    }
+    .footerHead .line {
+        border-top: 2px solid white;
+        width: 26rem;
+        margin: 1rem 25rem;
+    }
   
   }
 
@@ -256,4 +265,14 @@ media quries */
       header label {
             margin-left: 10rem;
       } 
+      .linePac {
+        border-top: 2px solid tomato;
+        width: 22rem;
+        margin: 1rem 5rem;
+    }
+    .footerHead .line {
+        border-top: 2px solid white;
+        width: 26rem;
+        margin: 1rem 3rem;
+    }
   }
