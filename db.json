@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "name": "Sakwat",
+      "profession": "stu",
+      "dateOfBirth": "11/11",
+      "email": "sak@gmail.com",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "name": "New",
+      "profession": "new",
+      "dateOfBirth": "11/11",
+      "email": "n@gmail.com",
+      "password": "12345678",
+      "id": 4
+    },
+    {
+      "name": "new1",
+      "profession": "new1",
+      "dateOfBirth": "11/88",
+      "email": "new@gmail.com",
+      "password": "12345678",
+      "id": 5
+    },
+    {
+      "name": "Minar",
+      "profession": "Enginer",
+      "dateOfBirth": "01/01/93",
+      "email": "m@gmail.com",
+      "password": "12345678",
+      "id": 6
+    },
+    {
+      "name": "Sandy Update",
+      "profession": "Eng. update",
+      "dateOfBirth": "02/02/93 update",
+      "email": "sandy@gmail.com",
+      "password": "12345678",
+      "id": 7
+    }
+  ]
+}
