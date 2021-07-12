@@ -1,38 +1,157 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Zen+Tokyo+Zoo&display=swap');
+*{
+      margin: 0;
+      padding: 0;
+      font-family: 'Courier Prime', monospace;
+}
+.Search{
+      margin: 2% 9%;
+      text-align: center;
+     border: none;
+     box-shadow: 0.5rem 0.5rem 0.5rem gray;
+     padding: 2% 2%;
+     background-color: rgb(104, 101, 101);
+     color: white;
+     border-radius: 1rem;
+}
+.Search h1{
+      font-size: 3rem;
+     margin-bottom: 2rem;
+     font-family: 'Zen Tokyo Zoo', cursive;
+}
+.Search input{
+      padding-top: 1rem;
+      padding-bottom: 0.5rem;
+      padding-left: 1rem;
+      padding-right: 3rem;
+     
+      width: 50%;
+      border: none;
+      border-radius: 2rem;
+      font-size: large; 
+      color: tomato;    
+}
+.btnSearch{
+      font-size: 1.5rem;
+      background: transparent;
+      margin-left: -3rem;
+      border: none;
+      color: grey;
+      cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.body{
+      margin: 0 15%;
+      display: flex;
+      text-align: center;     
+      background-color: cadetblue;
+      border-radius: 2rem;
+}
+.profile{    
+      padding: 2rem;    
+      background-color: rgb(173, 132, 77);
+      color: white;  
+      border-radius: 2rem;     
+}
+.profile img{
+      width: 11rem;
+      height: 11rem;
+      border: solid;
+      border-radius: 6rem;
+}
+.profile p {
+      margin-top: 1rem;
+}
+.profile h2{
+      margin-bottom: 1rem ;
+}
+.profile h3{
+      margin: 1rem 0;
+}
+.Repos{
+      display: flex;
+      flex-direction: column;
+      margin: 2rem;
+      color: white;  
+}
+.Repos .heading{
+      font-size: 4rem;
+      margin-bottom: 2rem;
+}
+.Container {
+      display: flex;
+      flex-direction: column;
+    
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Container .cards{
+     
+      padding: 1rem ;
+      margin: 0.5rem;
+      box-shadow: 0.5rem 0.5rem 0.5rem grey;
+      cursor: pointer;
+      border-radius: 1rem;
+
+}
+.Container .cards a {
+      text-decoration: none;
+      color: whitesmoke;
+     
+      
+}
+.Container .cards:hover {
+      background-color: blueviolet;       
+}
+
+
+.ViewRepo{
+ 
+      padding: 2rem;
+      margin: 10rem;
+      border-radius: 1rem;
+      background-color:  blueviolet;
+      color: white;
+      box-shadow: 1rem 1rem 0.5rem grey;
+      text-align: center;
+}
+.ViewRepo h2{
+      margin: 2rem 0;
+      
+}
+.ContainerView{
+      display: flex;
+      justify-content: center;
+}
+.ViewRepo .ContainerView h2{
+      border: solid 1px whitesmoke;
+      border-radius: 2rem;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      padding: 1rem;
+}
+
+.btn{
+      padding: 1rem 2rem;
+      margin-top: 1rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 1.5rem;
+      background: whitesmoke;
+      font-size: 1rem;
+      color: blueviolet;
+}
+.btn.back {
+      margin-left: 0.5rem;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
